@@ -1,0 +1,198 @@
+
+/*--initialized spaces -*/
+
+*, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	height: 80vh;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: 600;
+	padding: 0 0 .5em 0;
+	margin: 0;
+}
+
+figure{
+	height: 55vh;
+	border-radius: .1em;
+	box-shadow: 0 4px 6px rgba(8, 8, 8, 0.164), 0 6px 8px rgba(17, 17, 17, 0.151);
+}
+
+.img {
+	height: 50vh;
+	width: 34vw;
+	margin: 0;
+	/*padding: .5em;*/
+}
+
+figure,figcaption {
+	background-color: whitesmoke;
+	margin: 0;
+}
+
+figcaption {
+	font-size: 60%;
+	font-weight: bold;
+	padding: 0 .5em;
+}
+
+/*---end---*/
+
+body {
+	font-family:  'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.137)); /*url('https://res.cloudinary.com/omobola/image/upload/v1605261455/profiling/ss.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;*/
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+	line-height: 1.2em;
+}
+
+/*---reusable--*/
+.container {
+	width: 80%;
+	margin: 0 auto;	
+	/*background-color: red;*/
+}
+
+.first-section{
+	padding: 120px 0 0 0;
+}
+.second-section, footer {padding: 60px 0;}
+
+
+.fav {
+background: linear-gradient(to top, rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.137));
+	/*padding: .1em;*/
+}
+
+.learn {
+	font-size: 250px;
+	padding: .1em .3em;
+}
+
+meter::-webkit-meter-bar {
+  background: none; /* Required to get rid of the default background property */
+  background-color: whiteSmoke;
+  box-shadow: 0 5px 5px -5px #333 inset;
+}
+
+.head-p p {
+	font-size: 90%;
+	font-weight: 200;
+	padding: 0 5em 0 0;
+	margin: .8em 0;
+	text-align: justify;
+	color: black;
+}
+/*---reusable-ended---*/
+
+/*---main---
+main {
+	background-color: white;
+	opacity: 0.5;
+	/*padding-bottom: 30px;
+}
+*/
+
+/*---sections---
+.first-section {
+	background-color: yellowgreen;
+}
+*/
+
+
+/*---sections-ended---*/
+
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.87);
+	padding: .2em 0 .2em 25em;
+}
+
+span{
+	color: whitesmoke;
+	text-transform: uppercase;
+}
+
+.boxes {
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+.track-box {
+	background-color: #fff;
+	/*padding: 15px;*/
+	margin: 1.5em .5em 1.5em 0;
+	border-radius: .1em;
+	box-shadow: 0 4px 6px rgba(8, 8, 8, 0.164), 0 6px 8px rgba(17, 17, 17, 0.151);
+}
+
+meter {
+	margin: .8em 0 1.5em .8em;
+	}
+
+#html:before {
+	content: '80%';
+	font-size: 50%;
+	font-weight: bold;
+}
+#css:before {
+	content: '70%';
+	font-size: 50%;
+	font-weight: bold;
+}
+#js:before {
+	content: '30%';
+	font-size: 50%;
+	font-weight: bold;
+}
+	
+
+	
+.track-box > p{
+	font-size: 80%;
+	font-weight: normal;
+	color: #000;
+	padding: 1em;
+	text-align: justify;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.87);
+}
+
+button {
+	font-size: 60%;
+	padding: .4em;
+	margin: .5em;
+	background-color: whitesmoke;
+	border: none;
+	border-radius: .2em;
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.copy {
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 2em;
+}
