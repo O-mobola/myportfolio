@@ -59,6 +59,7 @@ body {
 	text-rendering: optimizeLegibility;
 	scroll-behavior: smooth;
 	line-height: 1.2em;
+	overflow-x: hidden;
 }
 
 /*---reusable--*/
@@ -122,6 +123,8 @@ nav {
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0.87);
 	padding: .2em 0 .2em 25em;
+	width: 100%;
+	overflow: hidden;
 }
 
 span{
@@ -174,6 +177,7 @@ meter {
 
 footer {
 	background-color: rgba(0, 0, 0, 0.87);
+	width: 100%;
 }
 
 button {

@@ -1,0 +1,77 @@
+
+
+
+@media screen and (max-width: 720px) {
+	
+	
+	.container {
+		width: 90%;
+		margin: 0 auto;	
+	}
+	
+	nav {
+			padding: .2em 0 .2em 0;
+			font-size: 50%;
+	}
+	
+	header {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: .5em;
+	margin: 0;
+	padding: 0;
+	/*height: 100vh;*/
+}
+
+h1 {
+	font-size: 100%;
+	font-weight: 600;
+}
+.head-p p {
+	font-size: 95%;
+	padding: 0;
+}
+
+.img {
+	height: 50vh;
+	width: auto
+	/*padding: .5em;*/
+}
+
+.boxes {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: .2em;
+		padding:  .5em;
+		/*background-color: green;*/
+	}
+	
+.track-box {
+	/*padding: 15px;*/
+	margin: .5em;
+}
+.first-section{
+	padding: 60px 0 520px 0;
+	/*background-color: orange;*/
+}
+
+.second-section {
+	padding-top: 105px;
+	/*background-color: blue;*/
+}
+
+
+.learn {
+	font-size: 90px;
+	padding: .3em 1em;
+}
+
+meter {
+	margin: .8em 0 1.5em 1.5em;
+	}
+	
+.track-box > p{
+	padding: 2em;
+}	
+
+}
